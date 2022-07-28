@@ -1,17 +1,14 @@
-# Forty Theme
+# Fortyone Theme
 
-Forty theme is a multi page website built around a grid of image tiles that transition into its content pages. It is a ported theme built by [HTML5 UP](https://html5up.net/). This theme contains many styled elements and features a contact form. Built for blogs, businesses, or freelancers.
+Fortyone theme is a multi page website built around a grid of image tiles that transition into its content pages. It is modified from the forty theme built by [HTML5 UP](https://html5up.net/). This theme contains many styled elements and features a contact form. Built for blogs, businesses, or freelancers.
 
-![Forty Screenshot](https://github.com/MarcusVirg/forty/blob/master/images/screenshot.png?raw=true)
-
-For a demo go to [Forty Demo](https://html5up.net/uploads/demos/forty/).
 
 ## Installation
 
 Create a new Hugo Site and inside the site folder run the following commands:
 
     $ cd themes
-    $ git clone https://github.com/MarcusVirg/forty
+    $ git clone https://github.com/harititan/fortyone
 
 To learn how to create a Hugo Site read the [official guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -20,7 +17,7 @@ To learn how to create a Hugo Site read the [official guide](//gohugo.io/overvie
 If you are using Netlify to host your hugo site, you will want to add it as a submodule instead of cloning:
 
     $ cd themes
-    $ git submodule add https://github.com/MarcusVirg/forty
+    $ git submodule add https://github.com/harititan/fortyone
 
 This is because Netlify uses the hugo build command when autopublish is enabled and will produce an error if the theme is not a submodule. See the [Hugo Guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify) for more information.
 
@@ -70,11 +67,11 @@ Find a bug or want a new feature? Use the issue tracker or submit a pull request
 ## License
 
 This theme is released under the Creative Commons Attribution 3.0.
-For more information read the [License](//github.com/MarcusVirg/forty/blob/master/LICENSE.md).
+For more information read the [License](//github.com/harititan/fortyone/blob/master/LICENSE.md).
 
 ## Acknowledgements
 
 Thanks to:
 
-- AJ from [HTML5 UP](https://html5up.net/) for creating the theme
+- AJ from [HTML5 UP](https://html5up.net/) for creating the forty theme
 - [Bjørn Erik Pedersen](https://github.com/bep), [Steve Francia](//github.com/spf13), [digitalcraftsman](//github.com/digitalcraftsman), and others for creating and maintaining Hugo.
