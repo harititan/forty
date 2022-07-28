@@ -25,11 +25,11 @@ If your javascript or css isn't rendering, check your BaseURL frontmatter in the
 
 ## Using the theme
 
-After cloning Forty or adding it as a submodule, there are a few other things you should do:
+After cloning Fortyone or adding it as a submodule, there are a few other things you should do:
 
 ### Config File
 
-There is an [`exampleSite`](//github.com/MarcusVirg/forty/tree/master/exampleSite) folder for this theme. Copy the file called [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) to your websites root directory.
+There is an [`exampleSite`](//github.com/harititan/fortyone/tree/master/exampleSite) folder for this theme. Copy the file called [`config.toml`](//github.com/harititan/fortyone/blob/master/exampleSite/config.toml) to your websites root directory.
 Here you can customize some of the text and content on the website.
 
 ### Change background
@@ -48,7 +48,7 @@ Replace `myBlog.md` with your own file name. You can also just copy the markdown
 ### Contact form
 
 This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email. Visitors can send you up to 1,000 emails per month for free.
-You can set your email in the [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) file. You then have to confirm your email with formspree and will begin recieving messages after you do so. I recommend only having the contact form on one page, most likely the index.html, because you have to confirm for every URL the contact form is on.
+You can set your email in the [`config.toml`](//github.com/harititan/fortyone/blob/master/exampleSite/config.toml) file. You then have to confirm your email with formspree and will begin recieving messages after you do so. I recommend only having the contact form on one page, most likely the index.html, because you have to confirm for every URL the contact form is on.
 
 ### Preview
 
