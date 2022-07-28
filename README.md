@@ -1,4 +1,4 @@
-# Forty Theme
+# Fortyone Theme
 
 Forty theme is a multi page website built around a grid of image tiles that transition into its content pages. It is a ported theme built by [HTML5 UP](https://html5up.net/). This theme contains many styled elements and features a contact form. Built for blogs, businesses, or freelancers.
 
@@ -11,7 +11,7 @@ For a demo go to [Forty Demo](https://html5up.net/uploads/demos/forty/).
 Create a new Hugo Site and inside the site folder run the following commands:
 
     $ cd themes
-    $ git clone https://github.com/MarcusVirg/forty
+    $ git clone https://github.com/harititan/fortyone
 
 To learn how to create a Hugo Site read the [official guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -20,7 +20,7 @@ To learn how to create a Hugo Site read the [official guide](//gohugo.io/overvie
 If you are using Netlify to host your hugo site, you will want to add it as a submodule instead of cloning:
 
     $ cd themes
-    $ git submodule add https://github.com/MarcusVirg/forty
+    $ git submodule add https://github.com/harititan/fortyone
 
 This is because Netlify uses the hugo build command when autopublish is enabled and will produce an error if the theme is not a submodule. See the [Hugo Guide](https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#use-hugo-themes-with-netlify) for more information.
 
@@ -28,11 +28,11 @@ If your javascript or css isn't rendering, check your BaseURL frontmatter in the
 
 ## Using the theme
 
-After cloning Forty or adding it as a submodule, there are a few other things you should do:
+After cloning Fortyone or adding it as a submodule, there are a few other things you should do:
 
 ### Config File
 
-There is an [`exampleSite`](//github.com/MarcusVirg/forty/tree/master/exampleSite) folder for this theme. Copy the file called [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) to your websites root directory.
+There is an [`exampleSite`](//github.com/harititan/fortyone/tree/master/exampleSite) folder for this theme. Copy the file called [`config.toml`](//github.com/harititan/fortyone/blob/master/exampleSite/config.toml) to your websites root directory.
 Here you can customize some of the text and content on the website.
 
 ### Change background
@@ -51,7 +51,7 @@ Replace `myBlog.md` with your own file name. You can also just copy the markdown
 ### Contact form
 
 This page is static so [formspree.io](https://formspree.io/) is used to forward the message to your email. Visitors can send you up to 1,000 emails per month for free.
-You can set your email in the [`config.toml`](//github.com/MarcusVirg/forty/blob/master/exampleSite/config.toml) file. You then have to confirm your email with formspree and will begin recieving messages after you do so. I recommend only having the contact form on one page, most likely the index.html, because you have to confirm for every URL the contact form is on.
+You can set your email in the [`config.toml`](//github.com/harititan/fortyone/blob/master/exampleSite/config.toml) file. You then have to confirm your email with formspree and will begin recieving messages after you do so. I recommend only having the contact form on one page, most likely the index.html, because you have to confirm for every URL the contact form is on.
 
 ### Preview
 
@@ -76,5 +76,5 @@ For more information read the [License](//github.com/MarcusVirg/forty/blob/maste
 
 Thanks to:
 
-- AJ from [HTML5 UP](https://html5up.net/) for creating the theme
+- AJ from [HTML5 UP](https://html5up.net/) for creating the forty theme
 - [Bjørn Erik Pedersen](https://github.com/bep), [Steve Francia](//github.com/spf13), [digitalcraftsman](//github.com/digitalcraftsman), and others for creating and maintaining Hugo.
