@@ -1842,7 +1842,7 @@
 			}
 
 		header.major > p {
-			font-size: 0.8em;
+			font-size: 0.85em;
 			font-weight: 600;
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
@@ -3502,7 +3502,7 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 0.8em;
+					font-size: 0.85em;
 					font-weight: 600;
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
