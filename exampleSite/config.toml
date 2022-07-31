@@ -79,7 +79,7 @@ disqusShortname = ""
 
   # Banner section
   [params.banner]
-    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # To change the background image on the homepage banner, replace 'banner.webp' in
     # the 'static/img' folder.
     title = "Hi, my name is Forty"
     subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
@@ -90,41 +90,47 @@ disqusShortname = ""
   [params.tiles]
     enable = true
     # Display your showcases here.
-    
+
     [[params.tiles.showcase]]
       title = "Aliquam"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic01.jpg"
+      imagew = "pic01.webp"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
       title = "Tempus"
       subtitle = "Feugiat Amet Tempus"
       image = "pic02.jpg"
+      imagew = "pic02.webp"
       url = "blogs/tempus"
 
     [[params.tiles.showcase]]
       title = "Magna"
       subtitle = "Lorem Etiam Nullam"
       image = "pic03.jpg"
+      imagew = "pic03.webp"
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
       title = "Ipsum"
       subtitle = "Nisl Sed Aliquam"
       image = "pic04.jpg"
+      imagew = "pic04.webp"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
       title = "Consequat"
       subtitle = "Ipsum Dolor Sit Amet"
       image = "pic05.jpg"
+      imagew = "pic05.webp"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
       title = "Etiam"
       subtitle = "Feugiat Amet Tempus"
       image = "pic06.jpg"
+      imagew = "pic06.webp"
       url = "blogs/ipsum"
     # You can make more showcases by copy and pasting the code above
 
@@ -139,9 +145,9 @@ disqusShortname = ""
   [params.two]
     enable = true
     title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. 
-    Mauris aliquet magna magna sed nunc rhoncus pharetra. 
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. 
+    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+    Mauris aliquet magna magna sed nunc rhoncus pharetra.
+    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
     Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
     Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
     buttonText = "Get Started"
@@ -204,7 +210,7 @@ disqusShortname = ""
       icon = "fa-instagram"
       url= "https://www.instagram.com"
       label = "Instagram"
-    
+
     [[params.footer.social]]
       icon = "fa-github"
       url= "https://www.github.com"

@@ -3,7 +3,11 @@
         {{ range .Site.Params.Tiles.showcase }}
         <article>
             <span class="image">
-                <img src="{{ .Site.Params.baseURL }}img/{{ .image }}" alt="" />
+              <picture>
+                <source type="image/webp" src="{{ .Site.Params.baseURL }}img/{{ .imagew }}">
+                <source type="image/jpeg" src="{{ .Site.Params.baseURL }}img/{{ .image }}">
+                <img src="{{ .Site.Params.baseURL }}img/{{ .imagew }}" alt="Try a different browser" />
+              </picture>
             </span>
             <header class="major">
                 <h3><a href="{{ .url | absURL }}" class="link" target="_blank">{{ .title }}</a></h3>
