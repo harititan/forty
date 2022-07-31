@@ -4,8 +4,8 @@
         <article>
             <span class="image">
               <picture>
-                <source type="image/webp" src="{{ .Site.Params.baseURL }}img/{{ .imagew }}">
-                <source type="image/jpeg" src="{{ .Site.Params.baseURL }}img/{{ .image }}">
+                <source type="image/webp" srcset="{{ .Site.Params.baseURL }}img/{{ .imagew }}">
+                <source type="image/jpeg" srcset="{{ .Site.Params.baseURL }}img/{{ .image }}">
                 <img src="{{ .Site.Params.baseURL }}img/{{ .imagew }}" alt="Try a different browser" />
               </picture>
             </span>

@@ -11,6 +11,12 @@
     {{ "<!-- Main JS -->" | safeHTML }}
     <script src="{{ "js/main.js"| absURL }}"></script>
 
+    <script type='text/javascript'>
+    //<![CDATA[
+    function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("css/font-awesome.min.css");
+    //]]>
+    </Script>
+
     {{ template "_internal/google_analytics_async.html" . }}
 
     {{ range .Site.Params.custom_js }}
